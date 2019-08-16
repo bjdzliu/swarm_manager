@@ -1,0 +1,8 @@
+### target
+transfer the docker stdout json log file  and the specified file in container to local
+
+### build
+go build  transfile.go sftp.go loadLogFile.go
+
+### example
+./transfile -appname  citic-msg-job  -srcfilename /afile
